@@ -1,6 +1,7 @@
 package dev.pbd;
 
 import io.quarkus.oidc.IdToken;
+import io.quarkus.security.Authenticated;
 import org.eclipse.microprofile.jwt.JsonWebToken;
 
 import jakarta.inject.Inject;
@@ -10,6 +11,7 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("/")
+@Authenticated
 public class GreetingResource {
 
     @Inject
