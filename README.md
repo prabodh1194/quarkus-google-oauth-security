@@ -1,5 +1,7 @@
 # security-openid-connect-quickstart
 
+I am testing how to use OIDC with Quarkus with Google oauth.
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
